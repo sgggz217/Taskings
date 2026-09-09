@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button, input, select {
+  font-family: inherit;
+}
+
+body {
+  font-family: 'JetBrains Mono Nerd Font', monospace;
+  background: #0e0e0e ;
+  color: #ffffff;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+#app {
+  max-width: 900px;
+  margin: 0;
+  background: #1a1a1a;
+  border-radius: 0px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+#sidebar {
+  background: #1e1e1e;
+  padding: 1rem;
+  border-radius: 0px;
+  margin-bottom: 2rem;
+}
+
+#main-area{
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 0px;
+}
+
+#add-task-form{
+  display:flex;
+  gap:0.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+#task-input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 0px;
+  border: 1px solid #444;
+  background: #111;
+  color: white;
+}
+
+#priority-select {
+  padding: 0.5rem;
+  border-radius: 0px;
+  border: 1px solid #444;
+  background: #111;
+  color: white;
+}
+
+#add-task-btn {
+  padding: 0.5rem 1.2rem;
+  border-radius: 0px;
+  border: none;
+  background: #f97316;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#task-container {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #333;
+}
+
+

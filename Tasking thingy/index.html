@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name='viewport' content="width=device-width, initial-scale=1.0">
+  <title>Tasking</title>
+  <meta name="description" content="Tasks list.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tasks</h1>
+    <div id='app'>
+      <div id="sidebar">
+        <h3>Lists</h3>
+        <div id="list-container"></div>
+        <button id="add-list-btn">+New Listings</button>
+      </div>
+      <div id="main-area">
+        <h2>Too-day</h2>
+        <div id="task-container"></div>
+        <div id="add-task-form">
+          <input type="text" id="task-input" placeholder="Gimme Task">
+          <select id="priority-select">
+            <option value="high">urgent</option>
+            <option value="medium">mid</option>
+            <option value="low">mehh</option>
+          </select>
+          <button id="add-task-btn">Deploy</button>
+        </div>
+      </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
